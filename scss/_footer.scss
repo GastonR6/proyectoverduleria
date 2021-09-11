@@ -1,0 +1,49 @@
+/* Inicio Footer */
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: large;
+	background: linear-gradient(rgba(255, 254, 253, 0.39), rgba(255, 254, 253, 0.397)), url("https://images.unsplash.com/photo-1528873981-36c6afde7b9d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80") fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	min-height: 500px;
+	position: relative;
+	width: 100%;
+}
+
+.info {
+	padding: 30px;
+}
+
+.info2 {
+	margin-top: 20px;
+}
+
+.copy {
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 20px;
+	color: blue;
+}
+
+.logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: blue;
+}
+
+.izquierda {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 150px;
+}
+
+/* Fin Footer */

@@ -1,0 +1,40 @@
+.containerGrid {
+	display: grid;
+	grid-gap: 3px;
+	grid-template-columns: 1.543fr 1fr 1.063fr 1.543fr;
+	grid-template-rows: auto;
+	grid-template-areas: 'A  B  C  E''A  D  D  E';
+	margin-bottom: 70px;
+}
+
+img {
+	&:nth-child(1) {
+		grid-area: A;
+	}
+
+	&:nth-child(2) {
+		grid-area: B;
+	}
+
+	&:nth-child(3) {
+		grid-area: C;
+	}
+
+	&:nth-child(4) {
+		grid-area: D;
+	}
+
+	&:nth-child(5) {
+		grid-area: E;
+	}
+
+	width: 100%;
+	height: auto;
+}
+
+.quienesSomos {
+	padding: 20px;
+	margin: 20px;
+	font-size: 30px;
+	text-align: center;
+}

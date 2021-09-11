@@ -1,0 +1,68 @@
+/* Inicio Ofertas */
+
+.ofertas {
+	background: linear-gradient(rgba(255, 254, 253, 0), rgba(255, 254, 253, 0)), url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80") fixed;
+	background-size: cover;
+	height: 100%;
+	margin: 0;
+	min-height: 510px;
+	position: relative;
+	width: 100%;
+	padding: 50px;
+}
+
+.articulos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	.item {
+		background-color: transparent;
+		margin: 5px;
+	}
+}
+
+.imagenCentrado {
+	&:hover {
+		transform: translateY(0px) scale(1.2);
+		transition: transform .5s ease-in-out;
+	}
+}
+
+.ofertas2 {
+	display: flex;
+	margin-right: 135px;
+	margin-left: 135px;
+	font-size: 25px;
+	color: red;
+	justify-content: space-around;
+	align-items: center;
+	background-color: transparent;
+	@include tamaño;
+}
+
+.ofertaCentrado {
+	font-size: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	@include tamaño;
+}
+
+.animado {
+	background: linear-gradient(to right, rgba(149, 211, 240, 0), rgba(149, 211, 240, 0)), linear-gradient(to right, rgba(255, 0, 0, 1), rgb(59, 12, 20), rgb(0, 0, 0));
+	background-size: 100% 1em, 0 0.1em;
+	background-position: 100% 100%, 0 100%;
+	background-repeat: no-repeat;
+	transition: background-size 400ms;
+
+	&:hover {
+		background-size: 0 0.1em, 100% 0.1em;
+	}
+
+	&:focus {
+		background-size: 0 0.1em, 100% 0.1em;
+	}
+}
+
+/* Fin Ofertas */

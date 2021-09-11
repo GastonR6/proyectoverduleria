@@ -1,0 +1,40 @@
+/* Inicio Titulos */
+
+h1 {
+	font-size: 5em;
+	color: #001089;
+	text-align: center;
+	padding: 7%;
+}
+
+h2 {
+	color: black;
+}
+
+h4 {
+	color: black;
+}
+
+h5 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.subtitulosFooter {
+	@include subrayado;
+}
+
+.verduleria {
+	color: #001089;
+	font-size: 3em;
+	margin: 20px;
+	padding: 1%;
+}
+
+.tituloProductos {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+/* Fin Titulos*/

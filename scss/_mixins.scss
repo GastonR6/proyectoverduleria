@@ -1,0 +1,12 @@
+/* Inicio mixins */
+
+@mixin subrayado {
+	color: blue;
+	text-decoration: underline;
+}
+
+@mixin tamaño {
+	font-size: 35px;
+}
+
+/* Fin mixins */
