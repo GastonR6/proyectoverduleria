@@ -1,36 +1,25 @@
 @media screen and (min-width:425px) and (max-width:850px) {
-	html {
-		max-width: 100% !important;
-		overflow-x: hidden !important;
-	}
+	
+#navbar4 {
 
-	body {
-		max-width: 100% !important;
-		overflow-x: hidden !important;
-	}
-
-	header {
-		min-height: 675px;
-	}
+	position: absolute;	
+	left: -10%;
+	top: 100%;
+	
+}
 
 	.logoNav {
-		right: 15%;
-		width: 100px;
-		margin-top: -5%;
+		left: -15%;
 	}
 
 	.nombreNav {
-		right: 25%;
+		position: absolute;
+		left: -13%;
 		color: #3a5cf1;
 	}
 
-	#nav {
-		height: 90px;
-		background-color: rgb(247, 247, 247);
-	}
-
-	#navbar4 {
-		margin-left: 0;
+	.navbar-toggler {
+		margin-right: 2%;
 	}
 
 	.navbar-collapse {
@@ -40,6 +29,10 @@
 				width: 100%;
 			}
 		}
+	}
+
+	#nav {
+		align-content: center;
 	}
 
 	h1 {
@@ -53,22 +46,9 @@
 	}
 
 	.logoCentrado {
-		margin-left: 25px;
 		position: absolute;
 		bottom: 20%;
-	}
-
-	.section1 {
-		display: flex;
-		width: 100%;
-
-		p {
-			font-size: 17px;
-			margin: -40px;
-			margin-right: 60%;
-			margin-top: -10%;
-			color: rgb(175, 87, 28);
-		}
+		left: 9%;
 	}
 
 	.bienvenidos {
@@ -81,16 +61,17 @@
 
 	.ofertas {
 		padding: 25px;
+		flex-direction: column;
 	}
 
 	.articulos {
-		display: flex;
-		flex-direction: column;
+		flex-wrap: wrap;
 	}
 
 	.item {
 		border: 5px dotted rgb(6, 75, 121);
 		border-radius: 10px;
+		height: 500px;
 	}
 
 	.ofertaCentrado {
@@ -98,10 +79,16 @@
 		margin-top: 50px;
 	}
 
+	h4 {
+		position: absolute;
+		top: -20%;
+		left: 9%;
+	}
+
 	.ofertas2 {
-		align-items: center;
-		margin: 0 auto;
-		margin-bottom: 10%;
+		width: 50%;
+		position: absolute;
+		left: -5%;
 	}
 
 	.copy {

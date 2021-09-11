@@ -40,29 +40,23 @@ h5 {
 
 /* Fin Titulos*/
 @media screen and (min-width: 425px) and (max-width: 850px) {
-  html {
-    max-width: 100% !important;
-    overflow-x: hidden !important; }
-  body {
-    max-width: 100% !important;
-    overflow-x: hidden !important; }
-  header {
-    min-height: 675px; }
-  .logoNav {
-    right: 15%;
-    width: 100px;
-    margin-top: -5%; }
-  .nombreNav {
-    right: 25%;
-    color: #3a5cf1; }
-  #nav {
-    height: 90px;
-    background-color: #f7f7f7; }
   #navbar4 {
-    margin-left: 0; }
+    position: absolute;
+    left: -10%;
+    top: 100%; }
+  .logoNav {
+    left: -15%; }
+  .nombreNav {
+    position: absolute;
+    left: -13%;
+    color: #3a5cf1; }
+  .navbar-toggler {
+    margin-right: 2%; }
   .navbar-collapse .collapse .show {
     background-color: white;
     width: 100%; }
+  #nav {
+    align-content: center; }
   h1 {
     margin-top: -10%;
     padding: 5px;
@@ -70,18 +64,9 @@ h5 {
   .verduleria {
     font-size: 30px; }
   .logoCentrado {
-    margin-left: 25px;
     position: absolute;
-    bottom: 20%; }
-  .section1 {
-    display: flex;
-    width: 100%; }
-    .section1 p {
-      font-size: 17px;
-      margin: -40px;
-      margin-right: 60%;
-      margin-top: -10%;
-      color: #af571c; }
+    bottom: 20%;
+    left: 9%; }
   .bienvenidos {
     font-size: 20px;
     margin-top: -10%;
@@ -89,20 +74,25 @@ h5 {
     margin-right: 20%;
     margin-left: -13%; }
   .ofertas {
-    padding: 25px; }
-  .articulos {
-    display: flex;
+    padding: 25px;
     flex-direction: column; }
+  .articulos {
+    flex-wrap: wrap; }
   .item {
     border: 5px dotted #064b79;
-    border-radius: 10px; }
+    border-radius: 10px;
+    height: 500px; }
   .ofertaCentrado {
     color: black;
     margin-top: 50px; }
+  h4 {
+    position: absolute;
+    top: -20%;
+    left: 9%; }
   .ofertas2 {
-    align-items: center;
-    margin: 0 auto;
-    margin-bottom: 10%; }
+    width: 50%;
+    position: absolute;
+    left: -5%; }
   .copy {
     text-align: center; } }
 
@@ -178,7 +168,7 @@ header {
   height: 70px;
   background-color: #f7f7f7; }
 
-#navbar4 {
+.navbar-nav {
   margin-left: 30%; }
 
 /* Inicio Carrusel */
@@ -345,6 +335,13 @@ footer {
   width: 150px; }
 
 /* Fin Footer */
+html {
+  overflow-x: hidden; }
+
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important; }
+
 /* Inicio generales  */
 * {
   margin: 0;
