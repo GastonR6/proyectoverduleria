@@ -1,6 +1,6 @@
 .containerGrid {
 	display: grid;
-	grid-gap: 3px;
+	grid-gap: 5px;
 	grid-template-columns: 1.543fr 1fr 1.063fr 1.543fr;
 	grid-template-rows: auto;
 	grid-template-areas: 'A  B  C  E''A  D  D  E';

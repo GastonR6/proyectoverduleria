@@ -5,3 +5,22 @@
 }
 
 /* Fin Form */
+
+.form-control{
+	border-radius:0px;
+	border:0px;
+  }
+  .font-primary{
+	font-family: 'Cabin', sans-serif;
+  }
+  .font-secondary{
+	font-family: 'Cabin', sans-serif;
+  }
+
+.seccionForm {
+	padding-bottom: 90px;
+}
+
+.botonForm:hover{
+	cursor: pointer;
+}
