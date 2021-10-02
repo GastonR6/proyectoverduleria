@@ -11,6 +11,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Major+Mono+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Major+Mono+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Major+Mono+Display&display=swap");
 .contacto {
   color: black; }
 
@@ -50,10 +52,6 @@ h2 {
 
 h4 {
   color: black; }
-
-h5 {
-  display: flex;
-  justify-content: space-around; }
 
 header .logoCentrado .verduleria {
   color: #fafafa;
@@ -224,12 +222,28 @@ header {
   margin-bottom: 5%; }
 
 .nombreNav {
+  color: #008250;
   position: relative;
   right: 210%; }
 
 .nav-item {
-  color: #3a5cf18a;
+  color: #008250;
   width: 200px; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #008250; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ee582a; }
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #ee582a; }
+
+.navbar-light .navbar-nav .nav-link.show {
+  color: #ee582a; }
+
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #ee582a; }
 
 #nav {
   display: flex;
@@ -251,6 +265,20 @@ header {
 
 .carrusel {
   background: url("../imagenes/verde.jpg") fixed; }
+
+div .carousel-caption h5 {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Archivo Black', sans-serif;
+  color: #Fafafa;
+  font-size: 28px; }
+
+div .carousel-caption p {
+  font-family: 'Lato', sans-serif;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #Fafafa;
+  font-size: 28px; }
 
 /* Fin Carrusel */
 /* Inicio Separaciones */

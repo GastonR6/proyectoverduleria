@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Major+Mono+Display&display=swap');
+
+
 /* Inicio Carrusel */
 
 .carousel-caption {
@@ -14,6 +18,30 @@
 
 .carrusel {
 	background: url("../imagenes/verde.jpg") fixed;
+}
+
+div {
+	.carousel-caption {
+		h5 {
+			display: flex;
+			justify-content: space-around;
+			font-family: 'Archivo Black', sans-serif;
+			color: #Fafafa;
+			font-size: 28px;
+		}
+	}
+}
+
+div {
+	.carousel-caption {
+		p {
+			font-family: 'Lato', sans-serif;
+			margin-top: 0;
+			margin-bottom: 1rem;
+			color: #Fafafa;
+			font-size: 28px;
+		}
+	}
 }
 
 /* Fin Carrusel */
