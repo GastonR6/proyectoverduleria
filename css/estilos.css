@@ -34,7 +34,8 @@
   cursor: pointer; }
 
 .text-info {
-  color: #00705F !important; }
+  color: #00705F !important;
+  text-align: start; }
 
 .btn-info {
   background-color: #00705F !important; }
