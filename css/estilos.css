@@ -1,8 +1,16 @@
 /* Inicio mixins */
 /* Fin mixins */
 /* Inicio Form */
-@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Major+Mono+Display&display=swap");
 .contacto {
   color: black; }
 
@@ -23,10 +31,17 @@
 .botonForm:hover {
   cursor: pointer; }
 
+.text-info {
+  color: #00705F !important; }
+
+.btn-info {
+  background-color: #00705F !important; }
+
 /* Inicio Titulos */
 h1 {
-  font-size: 5em;
-  color: #001089;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 8em;
+  color: #fafafa;
   text-align: center;
   padding: 7%; }
 
@@ -40,15 +55,11 @@ h5 {
   display: flex;
   justify-content: space-around; }
 
-.subtitulosFooter {
-  color: blue;
-  text-decoration: underline; }
-
-.verduleria {
-  color: #001089;
-  font-size: 3em;
+header .logoCentrado .verduleria {
+  color: #fafafa;
+  font-size: 3.5em;
   margin: 20px;
-  padding: 1%; }
+  margin-top: 15%; }
 
 .tituloProductos {
   text-align: center;
@@ -59,19 +70,23 @@ h5 {
 @media screen and (min-width: 425px) and (max-width: 850px) {
   #navbar4 {
     position: absolute;
-    left: -10%;
-    top: 100%; }
+    left: -3%;
+    top: 100%;
+    height: 300%; }
   .logoNav {
     left: -15%; }
   .nombreNav {
     position: absolute;
     left: -13%;
-    color: #3a5cf1; }
+    color: #00705F; }
   .navbar-toggler {
     margin-right: 2%; }
-  .navbar-collapse .collapse .show {
-    background-color: white;
-    width: 100%; }
+  .navbar-collapse {
+    background: #F7F7F7;
+    width: 120%; }
+    .navbar-collapse .collapse .show {
+      background-color: white;
+      width: 100%; }
   #nav {
     align-content: center; }
   h1 {
@@ -106,12 +121,53 @@ h5 {
     position: absolute;
     top: -20%;
     left: 9%; }
+  .ofertaSem {
+    margin-left: -7%; }
   .ofertas2 {
     width: 50%;
     position: absolute;
     left: -5%; }
   .copy {
-    text-align: center; } }
+    text-align: center; }
+  .containerGrid {
+    background: none; }
+  h3 {
+    font-size: 22px;
+    color: black; }
+  .col-xs-12 {
+    margin-left: -5%; }
+  .quienesSomos {
+    font-size: 20px; }
+  .descripcionServicios {
+    padding: 5px;
+    margin: 20px;
+    font-size: 26px;
+    text-align: center; }
+  .subTitle {
+    margin-left: 10%; }
+  .nServicios {
+    margin-right: 8%; } }
+
+.yummy2Jz9r {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: #00705F;
+  margin-bottom: 150px;
+  margin-left: -8%; }
+
+.tituloHistoria {
+  width: 950px;
+  margin-left: 25%;
+  margin-top: 6%; }
+
+.quienesSomos {
+  font-family: 'Lato', sans-serif;
+  color: #fafafa;
+  padding: 20px;
+  margin: 20px;
+  font-size: 26px;
+  text-align: center; }
 
 .containerGrid {
   display: grid;
@@ -119,6 +175,7 @@ h5 {
   grid-template-columns: 1.543fr 1fr 1.063fr 1.543fr;
   grid-template-rows: auto;
   grid-template-areas: "A  B  C  E" "A  D  D  E";
+  margin-top: 70px;
   margin-bottom: 70px; }
 
 img {
@@ -135,23 +192,17 @@ img {
   img:nth-child(5) {
     grid-area: E; }
 
-.quienesSomos {
-  padding: 20px;
-  margin: 20px;
-  font-size: 30px;
-  text-align: center; }
-
 header {
-  background: linear-gradient(rgba(255, 254, 253, 0.39), rgba(255, 254, 253, 0.397)), url("https://images.unsplash.com/photo-1528873981-36c6afde7b9d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80") fixed;
+  background: linear-gradient(rgba(255, 254, 253, 0.178), rgba(255, 254, 253, 0.178)), url("https://images.unsplash.com/photo-1594304466740-01a51b280fd3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 100%;
   min-height: 800px;
   position: relative;
   width: 100%; }
 
 .logoCentrado {
-  margin: 20px;
   margin-left: -5px;
   padding: 5%;
   text-align: center; }
@@ -198,6 +249,9 @@ header {
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important; }
 
+.carrusel {
+  background: url("/imagenes/verde.jpg") fixed; }
+
 /* Fin Carrusel */
 /* Inicio Separaciones */
 .bg-blue {
@@ -214,7 +268,7 @@ section.row {
 /* Fin Separaciones */
 /* Inicio Ofertas */
 .ofertas {
-  background: linear-gradient(rgba(255, 254, 253, 0.199), rgba(255, 254, 253, 0.199)), url("https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80") fixed;
+  background: linear-gradient(rgba(255, 254, 253, 0.199), rgba(255, 254, 253, 0.199)), url("/imagenes/06.jpg") fixed;
   background-size: cover;
   height: 100%;
   margin: 0;
@@ -222,6 +276,9 @@ section.row {
   position: relative;
   width: 100%;
   padding: 50px; }
+
+.ofertaSem {
+  margin-left: 5%; }
 
 .articulos {
   display: flex;
@@ -240,7 +297,7 @@ section.row {
   margin-right: 135px;
   margin-left: 135px;
   font-size: 25px;
-  color: red;
+  color: #ee582a;
   justify-content: space-around;
   align-items: center;
   background-color: transparent;
@@ -251,7 +308,7 @@ section.row {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: black;
+  color: #008250;
   font-size: 35px; }
 
 .animado {
@@ -266,51 +323,107 @@ section.row {
     background-size: 0 0.1em, 100% 0.1em; }
 
 /* Fin Ofertas */
-/* Inicio Productos */
-.tabla {
-  border-radius: 3px;
-  border-collapse: collapse;
-  height: 320px;
-  margin: auto;
-  max-width: 600px;
-  padding: 30px;
-  width: 100%;
-  border-left: #124 1px solid; }
+.MenusApp {
+  padding-top: 55px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: white; }
 
-td {
-  background: #F7F7F7;
-  padding: 20px;
-  text-align: center;
-  vertical-align: middle;
-  font-weight: 300;
-  font-size: 18px;
-  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-  border-right: 1px solid #124;
-  min-width: 100px; }
-  td ol {
-    margin-left: 20px; }
+.yummy_yK3u {
+  background-color: white;
+  width: 950px;
+  margin-left: 27%; }
+  .yummy_yK3u .yummy2Kfnk {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1196px;
+    margin: 0 auto;
+    list-style: none; }
+    .yummy_yK3u .yummy2Kfnk .yummy3zQgp {
+      width: 260px;
+      text-align: center;
+      margin-right: 52px;
+      margin-bottom: 50px;
+      position: relative;
+      width: 260px;
+      text-align: center;
+      margin-right: 52px;
+      margin-bottom: 50px;
+      position: relative; }
+    .yummy_yK3u .yummy2Kfnk .yummyrjw2B {
+      font-family: 'Lato', sans-serif;
+      color: #00705F;
+      width: 232px;
+      line-height: 1.5;
+      margin: 0 auto;
+      margin-top: 25px;
+      margin-bottom: 18px; }
+    .yummy_yK3u .yummy2Kfnk .yummyWM94_ {
+      background-color: #2f2e2e;
+      width: 192px;
+      height: 2px;
+      margin: 0 auto; }
+    .yummy_yK3u .yummy2Kfnk .yummyMsw8T {
+      font-family: 'Lato', sans-serif;
+      color: #2f2e2e;
+      line-height: 1.6;
+      margin-top: 12px;
+      margin-bottom: 25px; }
+    .yummy_yK3u .yummy2Kfnk .yummyKkAZE {
+      font-family: 'Lato', sans-serif;
+      color: #ee582a;
+      margin-top: 12px;
+      margin-bottom: 25px; }
+    .yummy_yK3u .yummy2Kfnk .yummyccDYq.yummymWnai {
+      margin-top: 27px; }
+  .yummy_yK3u .yummy2Jz9r {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #00705F;
+    margin-bottom: 150px;
+    margin-left: -8%; }
+  .yummy_yK3u ol {
+    margin: 0;
+    padding: 0; }
+  .yummy_yK3u ul {
+    margin: 0;
+    padding: 0; }
 
-th {
-  color: #F7F7F7;
-  background: #3a5cf18a;
-  border-bottom: 3px solid #3a5cf18a;
-  border-right: 1px solid #124;
-  font-size: 23px;
-  font-weight: 100;
-  padding: 24px;
-  text-align: center;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  vertical-align: middle; }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
 
-tr {
-  border-top: 1px solid #124;
-  border-bottom: 1px solid #124;
-  color: #000002;
-  font-size: 16px;
-  font-weight: normal;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1); }
+@media (max-width: 580px) {
+  .yummy_yK3u {
+    width: 280px;
+    margin-left: 1%; }
+    .yummy_yK3u .yummy2Jz9r {
+      margin-top: 1%;
+      margin-bottom: 80px;
+      margin-left: 1%; }
+    .yummy_yK3u .yummy3ybB_ {
+      width: 60px; }
+    .yummy_yK3u .yummy2Kfnk {
+      width: 280px;
+      margin-bottom: 50px; }
+      .yummy_yK3u .yummy2Kfnk .yummy3zQgp {
+        margin-left: auto;
+        margin-right: auto; }
+        .yummy_yK3u .yummy2Kfnk .yummy3zQgp:nth-child(2n) {
+          margin-left: auto;
+          margin-right: auto; }
+        .yummy_yK3u .yummy2Kfnk .yummy3zQgp:nth-child(3n) {
+          margin-left: auto;
+          margin-right: auto; }
+      .yummy_yK3u .yummy2Kfnk .yummyccDYq.yummymWnai {
+        margin-top: 22px; }
+  .yummy_yK3u {
+    width: 280px;
+    margin-left: 70px; } }
 
-/* Fin Productos */
 /* Inicio Footer */
 footer {
   display: flex;
@@ -318,28 +431,36 @@ footer {
   justify-content: center;
   text-align: center;
   font-size: large;
-  background: linear-gradient(rgba(255, 254, 253, 0.39), rgba(255, 254, 253, 0.397)), url("https://images.unsplash.com/photo-1528873981-36c6afde7b9d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80") fixed;
-  background-size: cover;
+  background: linear-gradient(rgba(255, 254, 253, 0.178), rgba(255, 254, 253, 0.178)), url("https://images.unsplash.com/photo-1594304466740-01a51b280fd3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80") fixed;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100%;
   min-height: 500px;
   position: relative;
-  width: 100%;
-  padding: 60px; }
+  width: 100%; }
 
 .info {
   padding: 30px; }
 
+.subtitulosFooter {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 18px;
+  color: #00705F; }
+
 .info2 {
-  margin-top: 20px; }
+  font-family: 'Lato', sans-serif;
+  margin-top: 20px;
+  color: #fafafa; }
 
 .copy {
+  font-family: 'Archivo Black', sans-serif;
   padding-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   font-size: 20px;
-  color: blue; }
+  color: #00705F; }
 
 .logo {
   display: flex;
@@ -367,22 +488,28 @@ html, body {
   padding: 0; }
 
 body {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Lato', sans-serif;
   overflow-x: hidden;
-  background-image: url("https://images.unsplash.com/photo-1629654858857-615c2c8be8a8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1071&q=80");
-  background-size: cover; }
+  background-size: cover;
+  background: #ffe259;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #ffa751, #ffe259);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ffa751, #ffe259);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 /* Fin generales */
-.quienesSomos {
+.descripcionServicios {
+  color: #FaFaFa;
   padding: 20px;
   margin: 20px;
   font-size: 26px;
   text-align: center; }
 
 .servicio {
+  font-family: 'Lato', sans-serif;
   font-size: 17px;
   line-height: 22px;
-  font-family: 'Cabin', sans-serif;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   margin: 0;
@@ -433,29 +560,24 @@ h6.subTitle {
   margin-bottom: 90px;
   text-align: center; }
 
-h6.subTitle:after, h4.noSubtitle:after {
-  background-color: #001089; }
-
-h6.subTitle:after, h4.noSubtitle:after {
-  display: block;
-  height: 1px;
-  width: 100px;
-  content: '';
-  bottom: -75%;
-  position: absolute;
-  margin-left: -50px;
-  left: 50%; }
+h3 {
+  font-family: 'Lato', sans-serif;
+  margin-left: 37%;
+  color: black; }
 
 .color1, .slice.color1, .bulle.color1, .ctaBox.color1 {
+  font-family: 'Lato', sans-serif;
   background-color: #F7F7F7;
   color: #444; }
 
 .nServicios {
-  color: #001089; }
+  font-family: 'Archivo Black', sans-serif;
+  color: #008250; }
 
 .servicios1 {
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
-  color: #001089; }
+  color: #008250; }
 
 .boxFeature i {
   color: #EB7F37;

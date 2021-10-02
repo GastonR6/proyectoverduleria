@@ -1,36 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Major+Mono+Display&display=swap');
+
 /* Inicio Footer */
 
-footer {
+ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
 	font-size: large;
-	background: linear-gradient(rgba(255, 254, 253, 0.39), rgba(255, 254, 253, 0.397)), url("https://images.unsplash.com/photo-1528873981-36c6afde7b9d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80") fixed;
-	background-size: cover;
+	background: linear-gradient(rgba(255, 254, 253, 0.178), rgba(255, 254, 253, 0.178)), url("https://images.unsplash.com/photo-1594304466740-01a51b280fd3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80") fixed;
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	height: 100%;
 	min-height: 500px;
 	position: relative;
-	width: 100%;
-	padding: 60px;
+	width: 100%;  
 }
+
 
 .info {
 	padding: 30px;
 }
 
+.subtitulosFooter {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 18px;
+	color: #00705F;
+}
+
 .info2 {
+	font-family: 'Lato', sans-serif;
 	margin-top: 20px;
+	color: #fafafa;
 }
 
 .copy {
+	font-family: 'Archivo Black', sans-serif;
 	padding-bottom: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	font-size: 20px;
-	color: blue;
+	color: #00705F;
 }
 
 .logo {

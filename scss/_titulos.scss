@@ -1,8 +1,9 @@
 /* Inicio Titulos */
 
 h1 {
-	font-size: 5em;
-	color: #001089;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 8em;
+	color: #fafafa;
 	text-align: center;
 	padding: 7%;
 }
@@ -20,15 +21,17 @@ h5 {
 	justify-content: space-around;
 }
 
-.subtitulosFooter {
-	@include subrayado;
-}
 
-.verduleria {
-	color: #001089;
-	font-size: 3em;
-	margin: 20px;
-	padding: 1%;
+
+header {
+	.logoCentrado {
+		.verduleria {
+			color: #fafafa;
+			font-size: 3.5em;
+			margin: 20px;
+			margin-top: 15%;
+		}
+	}
 }
 
 .tituloProductos {

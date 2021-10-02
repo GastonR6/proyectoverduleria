@@ -1,9 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Major+Mono+Display&display=swap');
+
+.yummy2Jz9r {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	color: #00705F;
+	margin-bottom: 150px;
+	margin-left: -8%;
+}
+
+.tituloHistoria {
+	width: 950px;
+	margin-left: 25%;
+	margin-top: 6%;
+}
+
+.quienesSomos {
+	font-family: 'Lato', sans-serif;
+	color: #fafafa;
+	padding: 20px;
+	margin: 20px;
+	font-size: 26px;
+	text-align: center;
+}
+
 .containerGrid {
 	display: grid;
 	grid-gap: 5px;
 	grid-template-columns: 1.543fr 1fr 1.063fr 1.543fr;
 	grid-template-rows: auto;
 	grid-template-areas: 'A  B  C  E''A  D  D  E';
+	margin-top: 70px;
 	margin-bottom: 70px;
 }
 
@@ -30,11 +58,4 @@ img {
 
 	width: 100%;
 	height: auto;
-}
-
-.quienesSomos {
-	padding: 20px;
-	margin: 20px;
-	font-size: 30px;
-	text-align: center;
 }
