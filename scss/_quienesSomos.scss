@@ -59,3 +59,79 @@ img {
 	width: 100%;
 	height: auto;
 }
+
+@media screen and (min-width:360px) and (max-width:640px) {
+	.containerGrid {
+		display: flex;
+		flex-direction: column;
+	}
+
+	h3 {
+		font-size: 22px;
+		color: black;
+	}
+
+	.col-xs-12 {
+		margin-left: -5%;
+	}
+
+	.quienesSomos {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width:641px) and (max-width:896px) {
+
+	.containerGrid {
+		display: flex;
+		flex-direction: column;
+	}
+
+	h3 {
+		font-size: 22px;
+		color: black;
+	}
+
+	.tituloHistoria {
+		width: 950px;
+		margin-left: -24%;
+		margin-top: 6%;
+	}
+
+	.col-xs-12 {
+		margin-left: -5%;
+	}
+
+	.quienesSomos {
+		font-size: 26px;
+	}
+
+}
+
+@media screen and (min-width:897px) and (max-width:1024px) {
+
+	.quienesSomos {
+		font-size: 28px;
+	}
+
+	.containerGrid {
+		display: flex;
+		flex-direction: column;
+	}
+
+	h3 {
+		font-size: 22px;
+		color: black;
+	}
+
+	.tituloHistoria {
+		width: 950px;
+		margin-left: -2%;
+		margin-top: 6%;
+	}
+
+	.col-xs-12 {
+		margin-left: -5%;
+	}
+
+}

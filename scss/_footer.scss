@@ -3,7 +3,7 @@
 
 /* Inicio Footer */
 
- footer {
+footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -16,7 +16,7 @@
 	height: 100%;
 	min-height: 500px;
 	position: relative;
-	width: 100%;  
+	width: 100%;
 }
 
 
@@ -33,7 +33,7 @@
 .info2 {
 	font-family: 'Lato', sans-serif;
 	margin-top: 20px;
-	color: #fafafa;
+	color: #444;
 }
 
 .copy {
@@ -61,3 +61,25 @@
 }
 
 /* Fin Footer */
+
+/* Queries footer */
+
+@media screen and (min-width:360px) and (max-width:640px) {
+	.copy {
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width:641px) and (max-width:896px) {
+
+	.copy {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width:897px) and (max-width:1024px) {
+
+	.copy {
+		font-size: 20px;
+	}
+}

@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Major+Mono+Display&display=swap');
 
 html {
-    overflow-x:hidden; 
+	overflow-x: hidden;
 }
-html, body {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
+
+html,
+body {
+	max-width: 100% !important;
+	overflow-x: hidden !important;
 }
 
 /* Inicio generales  */
@@ -20,9 +22,12 @@ body {
 	font-family: 'Lato', sans-serif;
 	overflow-x: hidden;
 	background-size: cover;
-	background: #ffe259;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	}
+	background: #ffe259;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #ffa751, #ffe259);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #ffa751, #ffe259);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 /* Fin generales */

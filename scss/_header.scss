@@ -59,24 +59,27 @@ header {
 }
 
 .navbar-light {
-    .navbar-nav {
-        .active {
-            >.nav-link {
-                color: #ee582a;
-            }
-        }
-        .nav-link.active {
-            color: #ee582a;
-        }
-        .nav-link.show {
-            color: #ee582a;
-        }
-        .show {
-            >.nav-link {
-                color: #ee582a;
-            }
-        }
-    }
+	.navbar-nav {
+		.active {
+			>.nav-link {
+				color: #ee582a;
+			}
+		}
+
+		.nav-link.active {
+			color: #ee582a;
+		}
+
+		.nav-link.show {
+			color: #ee582a;
+		}
+
+		.show {
+			>.nav-link {
+				color: #ee582a;
+			}
+		}
+	}
 }
 
 #nav {
@@ -87,4 +90,183 @@ header {
 
 .navbar-nav {
 	margin-left: 30%;
+}
+
+@media screen and (min-width:360px) and (max-width:640px) {
+	#navbar4 {
+
+		position: absolute;
+		left: -15%;
+		top: 100%;
+		height: 300%;
+
+	}
+
+	.logoNav {
+		left: -15%;
+	}
+
+	.nombreNav {
+		position: absolute;
+		left: 22%;
+		color: #00705F;
+	}
+
+	.navbar-toggler {
+		margin-right: 2%;
+	}
+
+	.navbar-collapse {
+		background: #F7F7F7;
+		width: 120%;
+
+		.collapse {
+			.show {
+				background-color: white;
+				width: 100%;
+			}
+		}
+	}
+
+	#nav {
+		align-content: center;
+	}
+
+	.logoCentrado {
+		position: absolute;
+		bottom: 40%;
+		left: 3%;
+	}
+
+	h1 {
+		margin-top: -10%;
+		padding: 5px;
+		font-size: 60px;
+	}
+
+
+	.verduleria {
+		font-size: 40px !important;
+	}
+
+}
+
+@media screen and (min-width:641px) and (max-width:896px) {
+
+	#navbar4 {
+
+		position: absolute;
+		left: -3%;
+		top: 100%;
+		height: 300%;
+
+	}
+
+	.logoNav {
+		left: -15%;
+	}
+
+	.nombreNav {
+		position: absolute;
+		left: 20%;
+		color: #00705F;
+	}
+
+	.navbar-toggler {
+		margin-right: 2%;
+	}
+
+	.navbar-collapse {
+		background: #F7F7F7;
+		width: 120%;
+
+		.collapse {
+			.show {
+				background-color: white;
+				width: 100%;
+			}
+		}
+	}
+
+	#nav {
+		align-content: center;
+	}
+
+	h1 {
+		margin-top: 40%;
+		padding: 5px;
+		font-size: 80px;
+		margin-left: -3%;
+	}
+
+	header {
+		.logoCentrado {
+			.verduleria {
+				font-size: 40px;
+				margin-left: -1%;
+			}
+		}
+	}
+}
+
+@media screen and (min-width:897px) and (max-width:1024px) {
+
+	#navbar4 {
+
+		position: absolute;
+		left: -3%;
+		top: 100%;
+		height: 300%;
+
+	}
+
+	.navbar-nav {
+		margin-left: 35%;
+		font-size: 17px;
+	}
+
+	.logoNav {
+		left: -15%;
+	}
+
+	.nombreNav {
+		position: absolute;
+		left: 20%;
+		color: #00705F;
+	}
+
+	.navbar-toggler {
+		margin-right: 2%;
+	}
+
+	.navbar-collapse {
+		background: #F7F7F7;
+		width: 120%;
+
+		.collapse {
+			.show {
+				background-color: white;
+				width: 100%;
+			}
+		}
+	}
+
+	#nav {
+		align-content: center;
+	}
+
+	h1 {
+		margin-top: 25%;
+		padding: 5px;
+		font-size: 100px;
+	}
+
+	header {
+		.logoCentrado {
+			.verduleria {
+				font-size: 45px
+			}
+		}
+	}
+
 }

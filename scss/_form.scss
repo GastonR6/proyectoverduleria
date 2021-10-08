@@ -6,30 +6,58 @@
 
 /* Fin Form */
 
-.form-control{
-	border-radius:0px;
-	border:0px;
-  }
-  .font-primary{
+.form-control {
+	border-radius: 0px;
+	border: 0px;
+}
+
+.font-primary {
 	font-family: 'Cabin', sans-serif;
-  }
-  .font-secondary{
+}
+
+.font-secondary {
 	font-family: 'Cabin', sans-serif;
-  }
+}
 
 .seccionForm {
 	padding-bottom: 90px;
 }
 
-.botonForm:hover{
+.botonForm:hover {
 	cursor: pointer;
 }
 
 .text-info {
-	color: #00705F!important;
+	color: #00705F !important;
 	text-align: start;
 }
 
 .btn-info {
-	background-color: #00705F!important;
+	background-color: #00705F !important;
+}
+
+@media screen and (min-width:360px) and (max-width:640px) {
+	.col-sm-4 {
+		text-align: center;
+	}
+
+}
+
+@media screen and (min-width:641px) and (max-width:896px) {
+
+	.seccionForm {
+		padding-bottom: 90px;
+		margin-right: 10%;
+	}
+
+}
+
+@media screen and (min-width:897px) and (max-width:1024px) {
+
+	.seccionForm {
+		padding-bottom: 90px;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+
 }
